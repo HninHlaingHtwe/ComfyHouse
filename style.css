@@ -1,0 +1,81 @@
+div#nav div.nav_left i{
+  font-size: 30px;
+  position: absolute;
+  top:10px;
+  left:140px;
+  bottom: 10px;
+}
+div#nav div.nav_right i{
+  font-size: 30px;
+  position: absolute;
+  top:10px;
+  right:140px;
+  bottom: 10px;
+}
+div#nav div.nav_right span#qty{
+  position: absolute;
+  top:10px;
+  right:140px;
+}
+
+div#nav div.nav_center h1{
+  display: inline-block;
+  text-align: center;
+  margin: 0 350px;
+  vertical-align: bottom;
+}
+/*div#nav div.nav_left{
+  float: left;
+}*/
+
+div#nav div.nav_right{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+div#banner img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+div.quote{
+  background-color: rgba(255,255,255,0.5);
+  font-size: 30px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  padding: 30px;
+}
+div.quote button.btn{
+  background-color: red;
+  margin: 0 150px;
+}
+div#product h1{
+  text-align: center;
+  margin: 0 350px;
+ }
+ div#productlist{
+  display: grid;
+  grid-template-columns: auto auto auto;
+ }
+ .imageUser {
+  width: 300px;
+  height: 200px;
+}
+.img-wrapper {
+  position: relative;
+  width: 150px;
+  padding-left: 50px;
+}
+.img-btn {
+  position: absolute;
+  top: 180px;
+  height: 25px;
+  left: 0px;
+  right:0; /* gave right, to align the button in center */
+  margin:0 auto; /* as button as fixed width, margin aligns in center */
+  width: 100px;
+  display: none
+}
+.img-wrapper:hover .img-btn {display:block} /* whenever mouse hovers the image wrapper, the button is shown, other time, its hidden */
